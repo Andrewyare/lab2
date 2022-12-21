@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Обробка даних форми</title>
+</head>
+
+<body>
+	<form action="/cgi-bin/form.py" method="post">
+		<input type="text" name="text-1">
+		<input type="text" name="text-2"><br>
+		<br><input type="checkbox" name="tern" value="Тернопіль">Тернопіль<br>
+		<input type="checkbox" name="if" value="Івано-Франківськ">Івано-Франківськ<br>
+		<input type="checkbox" name="cher" value="Чернівці">Чернівці<br>
+		<input type="checkbox" name="lviv" value="Львів">Львів<br><br>
+		Улюблена їжа:<br>
+		<input type="radio" name="food" value="Борщ">
+		<label for="borsch">Борщ</label><br>
+		<input type="radio" name="food" value="Вареники">
+		<label for="var">Вареники</label><br><br>
+		<input type="submit">
+	</form>
+</body>
+
+</html>
